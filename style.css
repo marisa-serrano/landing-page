@@ -89,3 +89,7 @@ button {
     width: 200px;
     border-radius: 8px;
 }
+
+.roasts {
+    display: flex;
+}
