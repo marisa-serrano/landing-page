@@ -1,7 +1,13 @@
 body {
-    padding: 15px 200px;
     font-family: robotto, sans-serif;
     background-color: #1f2937;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header, .one, .two, .three, .four, .footer {
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header {
@@ -51,7 +57,7 @@ a, .hero-subtext {
     color: #f9faf8;
 }
 
-img {
+.one img {
     width: 400px;
     border-radius: 8px;
 }
@@ -65,4 +71,21 @@ button {
     border-color: #5188a0;
     border-radius: 10px;
     width: 200px;
+}
+
+.two {
+    background-color: #f9faf8;
+    padding-top: 50px;
+}
+
+.info-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.two img {
+    width: 200px;
+    border-radius: 8px;
 }
