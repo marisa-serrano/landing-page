@@ -1,11 +1,11 @@
 body {
-    font-family: robotto, sans-serif;
+    font-family: roboto, sans-serif;
     background-color: #1f2937;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
-.header, .one, .two, .three, .four, .footer {
+.header, .one, .two, .review, .four, .footer {
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -75,7 +75,7 @@ button {
 
 .two {
     background-color: #f9faf8;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 .info-title {
@@ -96,11 +96,34 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 50px 80px 80px 80px;
+    margin: 50px 80px 0px 80px;
+    padding-bottom: 100px;
 }
 
 .roast {
     text-align: center;
     max-width: 175px;
     color: #48505b;
+}
+
+.review {
+    background-color: #e5e7eb;
+    font-size: 30px;
+    color: #55595e;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 300px;
+    gap: 20px;
+}
+
+.review-text {
+    font-style: italic;
+    font-weight: 100; 
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
 }
