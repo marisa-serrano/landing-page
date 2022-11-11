@@ -112,7 +112,7 @@ button {
 
 .review {
     background-color: #e5e7eb;
-    font-size: 30px;
+    font-size: 28px;
     color: #55595e;  
     display: flex;
     flex-direction: column;
@@ -147,7 +147,7 @@ button {
     border-radius: 20px;
     padding: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .four .content {
