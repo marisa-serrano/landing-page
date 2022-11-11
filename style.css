@@ -1,10 +1,10 @@
-* {}
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: roboto, sans-serif;
-    background-color: #1f2937;
-    padding-top: 15px;
-    padding-bottom: 15px;
 }
 
 .header, .one, .two, .review, .four, .footer {
@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 }
 
 .logo {
@@ -151,10 +152,19 @@ button {
 
 .four .content {
     color: #1f2937;
+    font-size: 18px;
 }
 
 .four .title {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 25px;
+    font-size: 18px;
 }
