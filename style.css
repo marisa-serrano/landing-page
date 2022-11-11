@@ -1,3 +1,5 @@
+* {}
+
 body {
     font-family: roboto, sans-serif;
     background-color: #1f2937;
@@ -49,6 +51,7 @@ a, .hero-subtext {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: #1f2937;
 }
 
 .hero-text {
@@ -67,10 +70,10 @@ button {
     font-size: 15px;
     font-weight: bold;
     color: #1f2937;
-    background-color: #7cbad5;
+    background-color: #8ccbe6;
     border-color: #5188a0;
     border-radius: 10px;
-    width: 200px;
+    width: 150px;
 }
 
 .two {
@@ -126,4 +129,32 @@ button {
 .author {
     align-self: flex-end;
     font-weight: bold;
+}
+
+.four {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9faf8;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.four .container {
+    background-color: #8ccbe6;
+    width: 1000px;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.four .content {
+    color: #1f2937;
+}
+
+.four .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
